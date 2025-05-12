@@ -1,18 +1,33 @@
-body {
-    background-color: #f0f8ff;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    color: #333;
-  }
-  
   h1 {
     color: #0965c0;
     font-size: 3rem;
     margin-top: 100px;
   }
   
-  p {
+  div{
+    background-size: cover;
+    background-size: 300px 200px;
+    word-spacing: 10px;
     font-size: 1.2rem;
-    color: #ff0303;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #000000;
   }
-  
+ 
+ .overlay-text {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background */
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.image-container {
+  position:absolute;
+  display: flex;
+  width: 100%; /* Adjust as needed */
+  max-width: 600px; /* Optional: limits the container's width */
+}
