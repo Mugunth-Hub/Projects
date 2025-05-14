@@ -1,13 +1,5 @@
-  h1 {
-    color: #0965c0;
-    font-size: 3rem;
-    margin-top: 100px;
-  }
-  
   div{
-    background-size: cover;
-    background-size: 300px 200px;
-    width: 110%;
+    width: 100%;
     word-spacing: 10px;
     font-size: 1.2rem;
     background-color: rgba(0, 0, 0, 0.5);
@@ -18,7 +10,7 @@
 .image-container {
   position:absolute;
   display: flex;
-  width: 100%; /* Adjust as needed */
+  width: 150%; /* Adjust as needed */
   max-width: 600px; /* Optional: limits the container's width */
 }
 .overlay-text {
@@ -26,12 +18,12 @@
   top:18%;
   left:100%;
   transform: translate(-50%, -50%);
-  display: flex; /* 👈 Makes the texts sit side by side */
-  gap: 400px;     /* 👈 Space between texts */
+
   background-color: rgba(0, 0, 0, 0.4);
   padding: 10px;
   border-radius: 5px;
   color: white;
   font-weight: normal;
 }
+
 
