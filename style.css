@@ -9,16 +9,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 .image-container img {
+  display: block;
+  width: 300px;
+  height: auto;
   width: 100%;
   height: auto;
 }
 
 .overlay-text {
   position: absolute;
-  top: 18%;
+  font-family: "Jost";
+  font-size: 20px;
+  word-spacing: 50px;
+  top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0.4);
@@ -29,6 +36,30 @@
   white-space: nowrap;
 }
 
+.vertical-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg);
+  background-color: rgba(0, 0, 0, 0.4);
+  white-space: nowrap;
+  letter-spacing: 2px;
+  font-family:"Jost";
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 64px;
+  color: #ffffff;
+  user-select: none;
+}
+
+.vertical-text.left {
+  left: -40px;
+}
+
+.vertical-text.right {
+  right: -40px;
+  transform: translateY(-50%) rotate(90deg);
+}
+
 .section1 {
   background-color: #f8f8f8;
   padding: 10px;
@@ -36,71 +67,62 @@
   color: #333;
   font-size: 1.2rem;
 }
+.font-color{
+  color: #0A2463;
+}
+
 .highlight1 {
   color: red;
   font-weight: bold;
 }
-.button{
+
+.button {
   color: rgb(255, 255, 255);
   background-color: blue;
   width: 170px;
-  padding: 5px ;
+  padding: 5px;
   text-align: center;
-}
-
-.section2 {
-  background-color: #f8f8f8;
-  padding: 10px;
-  margin: 3%;
-  color: #333;
-  font-size: 1.2rem;
-}
-
-.section3 {
-  background-color: #f8f8f8;
-  padding: 10px;
-  display: flex;
-  margin: 3%;
-  color: #333;
-  font-size: 1.2rem;
 }
 
 .experience-box {
   display: flex;
-  flex-direction: column; /* stack vertically */
-  align-items:center;     /* center horizontally */
+  flex-direction: column;
+  align-items: center;
   font-family: Arial, sans-serif;
 }
 
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  height: 663px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.stat-item {
+  flex: 1;
+  padding: 0 15px;
+}
+
 .number {
-  font-size: 4rem;
+  font-size: 42px;
   font-weight: bold;
-  color: #000;
-  line-height: 1;
+  color: #222;
+  margin-bottom: 5px;
+  line-height: 1.1;
 }
 
 .label {
-  font-size: 1rem;
-  color: #666;
+  font-size: 16px;
+  color: #555;
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 500;
+  line-height: 1.4;
 }
-.section4 {
-  background-color: #f8f8f8;
-   text-align: center;
-  flex-direction: column; /* stack vertically */
-  align-items:center;     /* center horizontally */
-  padding: 10px;
-  display: flex;
-  margin: 3%;
-  color: #333;
-  font-size: 1.2rem;
-}
-.section5 {
-  background-color: #f8f8f8;
-  text-align: center;
-  padding: 10px;
-  display: flex;
-  margin: 3%;
-  color: #333;
-  font-size: 1.2rem;
 
+.stat-item:hover .number {
+  color: #0066cc;
 }
