@@ -92,8 +92,6 @@
 
 .fontsize-section1{
   font-size: 20px;
-    flex: 1;
-      display: flex;
 }
 
 .content-wrapper {
@@ -104,7 +102,6 @@
   margin: 50px;
   position: relative;
 }
-
 .right-images {
   position: relative;
   width: fit-content;
