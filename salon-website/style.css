@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
@@ -17,10 +18,26 @@ body, html {
   height: 100%;
 }
 
-.bg1 { background-color: #C1A35D; } /* top-left */
-.bg2 { background-color: #1C1C1C; } /* top-right */
-.bg3 { background-color: #2E2E2E; } /* bottom-left */
-.bg4 { background-color: #6C7A61; } /* bottom-right */
+.bg1 {
+  background-color: #C1A35D;
+}
+
+/* top-left */
+.bg2 {
+  background-color: #1C1C1C;
+}
+
+/* top-right */
+.bg3 {
+  background-color: #2E2E2E;
+}
+
+/* bottom-left */
+.bg4 {
+  background-color: #6C7A61;
+}
+
+/* bottom-right */
 
 .hero-content {
   position: absolute;
@@ -31,23 +48,58 @@ body, html {
   z-index: 2;
   max-width: 500px;
 }
-.webname{
- font-family: 'Cinzel Decorative', cursive;
- font-size:64px;
- right: 15%;
- color:white;
 
+.webname {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 64px;
+  position: absolute;
+  right: -55%;
+  top: -50%;
+  font-weight: bolder;
+  color: white;
 }
 
-.hero-content h1 {
-  font-size: 60px;
+.subwebname {
   font-family: 'Cinzel Decorative', cursive;
+  font-size: 18px;
+  position: absolute;
+  right: -53%;
+  top: -30%;
+  color: white;
+}
+
+.nav-bar {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 18px;
+  position: absolute;
+  right: -53%;
+  top: -30%;
+  color: white;
+}
+
+.line1{
+  font-size: 80px;
+  font-family: 'Cinzel Decorative', cursive;
+  position: relative;
+  width: 100%;
+  right: -75%;
+  top: -30%;
   color: white;
   font-weight: bold;
 }
 
+.line2{
+   font-size: 80px;
+  font-family: 'Cinzel Decorative', cursive;
+  position: relative;
+  right: -75%;
+  top: -30%;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+}
 .hero-content p {
-  margin-top: 20px;
+  margin-top: 80px;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -64,8 +116,26 @@ body, html {
 
 .model-img {
   position: absolute;
-  right: 15%;
-  top: 30%;
-  height: 500px;
+  right: 35%;
+  top: 20%;
+  height: 555px;
+  width: 449px;
   z-index: 2;
+}
+
+.section2{
+  height:800px ;
+  width:100% ;
+  background-color: #BABABA;
+}
+.bigtext1{
+    font-family: 'Cinzel Decorative', cursive;
+    color: #000;
+    font-size: 64px;
+    font-weight: bold;
+    right: -35%;
+}
+.color1{
+  color: white;
+    right: -35%;
 }
