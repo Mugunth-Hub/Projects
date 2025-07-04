@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+.custom-navbar {
+  background-color: rgba(0, 0, 0, 0.7); /* Light black with some transparency */
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
